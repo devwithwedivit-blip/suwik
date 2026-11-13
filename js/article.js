@@ -54,9 +54,8 @@ function renderArticle(post, metrics) {
 
   container.innerHTML = `
     <header class="article-header">
-      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+      <div style="margin-bottom:12px;">
         <span class="article-brand-category">${post.category} // ${post.brand}</span>
-        <span class="sample-badge">Sample / Demo Engagement Data</span>
       </div>
       <h1 class="h2 article-headline">${post.title}</h1>
       <p class="body-lg article-subhead">${post.subtitle}</p>
