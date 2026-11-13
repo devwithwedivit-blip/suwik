@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blogs — SUWIK</title>
+  <meta name="description" content="SUWIK Blogs — 8 in-depth brand marketing case studies by Supriya (Institute of Home Economics, New Delhi): Zomato, Swiggy, Amul, CRED, Nykaa, boAt, Nike, and Coca-Cola." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+      <!-- Site Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo-link" aria-label="SUWIK Home">
+        <img src="assets/logo.png" alt="SUWIK Logo" class="logo-img" style="height:28px; width:auto; display:block;" />
+      </a>
+
+      <!-- Desktop Navigation Pills (Blogs, About, Analytics) -->
+      <nav class="nav-group" aria-label="Main Navigation">
+        <a href="articles.html" class="nav-pill active" id="navBlogs">
+          <span class="rolling-text">
+            <span class="primary-text">Blogs</span>
+            <span class="secondary-text">Blogs</span>
+          </span>
+        </a>
+
+        <a href="about.html" class="nav-pill" id="navAbout">
+          <span class="rolling-text">
+            <span class="primary-text">About</span>
+            <span class="secondary-text">About</span>
+          </span>
+        </a>
+
+        <a href="analytics.html" class="nav-pill" id="navAnalytics">
+          <span class="rolling-text">
+            <span class="primary-text">Analytics</span>
+            <span class="secondary-text">Analytics</span>
+          </span>
+        </a>
+      </nav>
+
+      <!-- Mobile Nav Toggle -->
+      <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Open Menu">MENU</button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <a href="articles.html">Blogs</a>
+    <a href="about.html">About Us</a>
+    <a href="analytics.html">Analytics Dashboard</a>
+  </div>
+
+  <main class="container spacing-bottom">
+    <header class="articles-header">
+      <div class="articles-sublabel">Brand Marketing Cases // Coursework Analysis</div>
+      <h1 class="h1">Blogs</h1>
+      <p class="body-lg" style="color:var(--text-secondary); max-width:680px; margin-top:12px;">
+        Eight investigative brand case studies analyzing breakthrough campaigns in food-tech, fintech, e-commerce, D2C audio, and global FMCG.
+      </p>
+    </header>
+
+    <!-- Articles Grid Container (rendered by js/articles.js) -->
+    <div id="articlesGrid" class="articles-grid">
+      <!-- Loading placeholder -->
+      <p class="body-md">Loading case study cards...</p>
+    </div>
+  </main>
+
+      <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <!-- Left Column -->
+      <div class="footer-col-left">
+        <a href="index.html" aria-label="SUWIK Home">
+          <img src="assets/logo.png" alt="SUWIK Logo" style="height:26px; width:auto; display:block;" />
+        </a>
+        <div class="footer-legal">
+          <a href="about.html">Privacy Policy</a>
+          <a href="about.html">Terms of Service</a>
+          <span>© 2025 SUWIK — Strategically Unified Worlds of Innovation and Knowledge</span>
+          <span class="disclaimer-text" style="margin-top:8px; font-weight:500; color:#555555;">
+            Student coursework blog by Supriya, 1st Year, Institute of Home Economics, University of Delhi, Hauz Khas, New Delhi.
+          </span>
+        </div>
+      </div>
+
+      <!-- Right Column -->
+      <div class="footer-col-right">
+        <div class="footer-nav-groups">
+          <div>
+            <div class="footer-section-title">Blogs</div>
+            <div class="footer-pills">
+              <a href="index.html" class="nav-pill">Home</a>
+              <a href="articles.html" class="nav-pill">All Blogs</a>
+            </div>
+          </div>
+
+          <div>
+            <div class="footer-section-title">About</div>
+            <div class="footer-pills">
+              <a href="about.html" class="nav-pill">About Us</a>
+              <a href="analytics.html" class="nav-pill">Analytics</a>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="footer-section-title">SUWIK Updates</div>
+          <form class="newsletter-box" id="newsletterForm" onsubmit="event.preventDefault(); window.handleNewsletter(event);">
+            <input type="email" placeholder="email address" class="newsletter-input" required aria-label="Email for SUWIK Updates" />
+            <button type="submit" class="newsletter-btn">Sign Up</button>
+          </form>
+          <p class="disclaimer-text" style="margin-top:8px; max-width:320px;">
+            By signing up, you consent to receive marketing case study updates and agree to our Privacy Policy.
+          </p>
+        </div>
+
+        <div class="social-links">
+          <a href="#" target="_blank" rel="noopener">Instagram</a>
+          <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="#" target="_blank" rel="noopener">X</a>
+          <a href="#" target="_blank" rel="noopener">YouTube</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/articles.js"></script>
+</body>
+</html>
+

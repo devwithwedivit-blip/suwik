@@ -1,0 +1,147 @@
+{
+  "siteName": "SUWIK",
+  "companyFullName": "Strategically Unified Worlds of Innovation and Knowledge",
+  "founder": {
+    "name": "Supriya",
+    "year": "1st Year",
+    "institution": "Institute of Home Economics, University of Delhi",
+    "place": "Hauz Khas, New Delhi, India",
+    "image": "assets/images/supriya.webp",
+    "story100Words": "I started this blog during my 1st year at the Institute of Home Economics, University of Delhi, located in Hauz Khas, New Delhi. Fascinated by consumer psychology and digital culture, I observed how marketing evolved beyond traditional advertisements into witty push notifications, moment marketing, and authentic community storytelling. Through SUWIK, standing for Strategically Unified Worlds of Innovation and Knowledge, I launched this publication to analyze eight iconic campaigns, from Zomato and Swiggy to Nike and Coca-Cola. My ongoing purpose is translating academic frameworks into practical, real-world insights that empower students to master the art and science of modern brand building."
+  },
+  "tagline": "Strategically Unified Worlds of Innovation and Knowledge",
+  "disclaimer": "Student coursework prototype by Supriya, Institute of Home Economics, New Delhi.",
+  "navigation": [
+    {
+      "label": "Blogs",
+      "href": "articles.html",
+      "id": "navBlogs"
+    },
+    {
+      "label": "About",
+      "href": "about.html",
+      "id": "navAbout"
+    },
+    {
+      "label": "Analytics",
+      "href": "analytics.html",
+      "id": "navAnalytics"
+    }
+  ],
+  "home": {
+    "hero": {
+      "headline": "Zomato: The Irreverent Art of Conversational Push Notifications and Moment Marketing",
+      "category": "Featured Case Study // Food-Tech & Moment Marketing",
+      "date": "October 2026",
+      "slug": "zomato-push-notifications-moment-marketing",
+      "image": "assets/images/zomato_hero.webp",
+      "link": "article.html?slug=zomato-push-notifications-moment-marketing"
+    },
+    "blogsSection": {
+      "title": "Blogs",
+      "subtitle": "Strategically Unified Worlds of Innovation and Knowledge // Case Studies",
+      "linkText": "All Blogs (8)"
+    },
+    "quote": {
+      "text": "Great marketing builds deep emotional connections, transforming functional utilities into cultural conversations and enduring brand loyalty.",
+      "author": "Supriya",
+      "role": "Founder, SUWIK // 1st Year, Institute of Home Economics, New Delhi"
+    },
+    "spans": [
+      "Brand Strategy",
+      "Content Commerce",
+      "Social Media"
+    ],
+    "natureSection": {
+      "title": "Driven by Insight, Powered by Knowledge",
+      "paragraph": "SUWIK (Strategically Unified Worlds of Innovation and Knowledge) is an academic initiative decoding brand positioning, social media momentum, and consumer psychology across disruptive modern enterprises.",
+      "cta": {
+        "label": "About SUWIK \u2192",
+        "href": "about.html"
+      },
+      "image": "assets/images/img_21.webp"
+    },
+    "founderSection": {
+      "title": "Meet the Founder",
+      "paragraph": "Founded by Supriya from the Institute of Home Economics (University of Delhi, Hauz Khas, New Delhi), SUWIK brings together student analysts exploring digital marketing strategy.",
+      "cta": {
+        "label": "About Supriya \u2192",
+        "href": "about.html"
+      },
+      "image": "assets/images/supriya.webp"
+    }
+  },
+  "about": {
+    "title": "How I Started This Blog",
+    "subtitle": "By Supriya \u2014 1st Year, Institute of Home Economics, University of Delhi, New Delhi",
+    "story100Words": "I started this blog during my 1st year at the Institute of Home Economics, University of Delhi, located in Hauz Khas, New Delhi. Fascinated by consumer psychology and digital culture, I observed how marketing evolved beyond traditional advertisements into witty push notifications, moment marketing, and authentic community storytelling. Through SUWIK, standing for Strategically Unified Worlds of Innovation and Knowledge, I launched this publication to analyze eight iconic campaigns, from Zomato and Swiggy to Nike and Coca-Cola. My ongoing purpose is translating academic frameworks into practical, real-world insights that empower students to master the art and science of modern brand building.",
+    "pillars": [
+      {
+        "num": "01 // Innovation",
+        "title": "Strategic Innovation",
+        "desc": "Examining how nimble Indian startups and global giants disrupt customer acquisition using agile moment marketing, self-aware humor, and viral mechanics."
+      },
+      {
+        "num": "02 // Knowledge",
+        "title": "Academic Rigor",
+        "desc": "Synthesizing core consumer behavior theory from university coursework with concrete, empirical campaign data and community engagement funnels."
+      },
+      {
+        "num": "03 // Impact",
+        "title": "Student Empowerment",
+        "desc": "Providing accessible, beautifully structured case study breakdowns to help undergraduate peers understand modern brand storytelling."
+      }
+    ]
+  },
+  "footer": {
+    "brand": "SUWIK",
+    "fullName": "Strategically Unified Worlds of Innovation and Knowledge",
+    "blogsLinks": [
+      {
+        "label": "Home",
+        "href": "index.html"
+      },
+      {
+        "label": "Blogs",
+        "href": "articles.html"
+      }
+    ],
+    "aboutLinks": [
+      {
+        "label": "About Us",
+        "href": "about.html"
+      },
+      {
+        "label": "Analytics",
+        "href": "analytics.html"
+      }
+    ],
+    "socialLinks": [
+      {
+        "label": "Instagram",
+        "href": "#"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "#"
+      },
+      {
+        "label": "X",
+        "href": "#"
+      },
+      {
+        "label": "YouTube",
+        "href": "#"
+      }
+    ],
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "copyright": "\u00a9 2025 SUWIK \u2014 Strategically Unified Worlds of Innovation and Knowledge"
+    },
+    "newsletter": {
+      "title": "SUWIK Updates",
+      "consent": "By signing up, you consent to receive marketing case study updates and agree to our Privacy Policy."
+    }
+  }
+}
