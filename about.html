@@ -60,7 +60,7 @@
 
     <!-- Founder Feature (Supriya Photo & 100-Word Journey) -->
     <section class="grid-12" style="margin-bottom:80px; align-items:start;">
-      <div style="grid-column: span 12; @media (min-width: 1024px) { grid-column: span 5; }">
+      <div class="col-founder-photo">
         <div style="width:100%; aspect-ratio:3/4; border-radius:12px; overflow:hidden; background:#ECECEC; margin-bottom:16px; box-shadow: 0 4px 20px rgba(0,0,0,0.06);">
           <img src="assets/images/supriya.webp" alt="Supriya — Founder, SUWIK" style="width:100%; height:100%; object-fit:cover;" />
         </div>
@@ -75,7 +75,7 @@
         </div>
       </div>
 
-      <div style="grid-column: span 12; @media (min-width: 1024px) { grid-column: span 7; } display:flex; flex-direction:column; gap:20px;">
+      <div class="col-founder-bio">
         <div class="font-mono" style="color:var(--text-secondary);">01 // Founder Journey</div>
         <h2 class="h2" style="margin-bottom:4px;">How I Started This Blog</h2>
         
@@ -104,7 +104,7 @@
 
     <!-- Strategic Pillars (Innovation, Knowledge, Impact) -->
     <section class="grid-12" style="border-top:1px solid var(--border-hairline); padding-top:48px; margin-bottom:80px;">
-      <div style="grid-column: span 12; @media(min-width:768px){grid-column:span 4;}; display:flex; flex-direction:column; gap:12px;">
+      <div class="col-pillar">
         <div class="font-mono" style="color:var(--text-secondary);">01 // Innovation</div>
         <h3 class="h3" style="font-size:24px;">Strategic Innovation</h3>
         <p class="body-md" style="color:#4A4A4A; line-height:1.6;">
@@ -112,7 +112,7 @@
         </p>
       </div>
 
-      <div style="grid-column: span 12; @media(min-width:768px){grid-column:span 4;}; display:flex; flex-direction:column; gap:12px;">
+      <div class="col-pillar">
         <div class="font-mono" style="color:var(--text-secondary);">02 // Knowledge</div>
         <h3 class="h3" style="font-size:24px;">Academic Rigor</h3>
         <p class="body-md" style="color:#4A4A4A; line-height:1.6;">
@@ -120,7 +120,7 @@
         </p>
       </div>
 
-      <div style="grid-column: span 12; @media(min-width:768px){grid-column:span 4;}; display:flex; flex-direction:column; gap:12px;">
+      <div class="col-pillar">
         <div class="font-mono" style="color:var(--text-secondary);">03 // Impact</div>
         <h3 class="h3" style="font-size:24px;">Student Empowerment</h3>
         <p class="body-md" style="color:#4A4A4A; line-height:1.6;">
@@ -128,49 +128,9 @@
         </p>
       </div>
     </section>
+</main>
 
-    <!-- Case Study Reading Library Section -->
-    <section>
-      <div class="section-header">
-        <h2 class="section-title">Case Study Library</h2>
-        <span class="font-mono" style="color:var(--text-secondary);">Curated Reading Material</span>
-      </div>
-
-      <div class="works-grid">
-        <div class="work-card">
-          <div class="work-image-box" style="aspect-ratio:3/4;">
-            <img src="assets/images/img_20.webp" alt="Brand Marketing Anthology" loading="lazy" />
-          </div>
-          <div class="work-meta">
-            <h3 class="work-title">Brand Marketing Anthology</h3>
-            <span class="work-sub">Coursework Research // Vol 1</span>
-          </div>
-        </div>
-
-        <div class="work-card">
-          <div class="work-image-box" style="aspect-ratio:3/4;">
-            <img src="assets/images/img_22.webp" alt="Consumer Psychology in Food-Tech" loading="lazy" />
-          </div>
-          <div class="work-meta">
-            <h3 class="work-title">Food-Tech Consumer Psychology</h3>
-            <span class="work-sub">Digital Strategy Review // Edition 02</span>
-          </div>
-        </div>
-
-        <div class="work-card">
-          <div class="work-image-box" style="aspect-ratio:3/4;">
-            <img src="assets/images/img_25.webp" alt="Viral Mechanics & Moment Marketing" loading="lazy" />
-          </div>
-          <div class="work-meta">
-            <h3 class="work-title">Viral Mechanics &amp; Moment Marketing</h3>
-            <span class="work-sub">Academic Monograph // Edition 04</span>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-    <!-- Site Footer -->
+      <!-- Site Footer -->
   <footer class="site-footer">
     <div class="container footer-grid">
       <!-- Left Column -->
@@ -206,24 +166,6 @@
               <a href="analytics.html" class="nav-pill">Analytics</a>
             </div>
           </div>
-        </div>
-
-        <div>
-          <div class="footer-section-title">SUWIK Updates</div>
-          <form class="newsletter-box" id="newsletterForm" onsubmit="event.preventDefault(); window.handleNewsletter(event);">
-            <input type="email" placeholder="email address" class="newsletter-input" required aria-label="Email for SUWIK Updates" />
-            <button type="submit" class="newsletter-btn">Sign Up</button>
-          </form>
-          <p class="disclaimer-text" style="margin-top:8px; max-width:320px;">
-            By signing up, you consent to receive marketing case study updates and agree to our Privacy Policy.
-          </p>
-        </div>
-
-        <div class="social-links">
-          <a href="#" target="_blank" rel="noopener">Instagram</a>
-          <a href="#" target="_blank" rel="noopener">LinkedIn</a>
-          <a href="#" target="_blank" rel="noopener">X</a>
-          <a href="#" target="_blank" rel="noopener">YouTube</a>
         </div>
       </div>
     </div>

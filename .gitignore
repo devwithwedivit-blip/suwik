@@ -8,7 +8,13 @@ Desktop.ini
 *.zip
 *.tar.gz
 
-# Python cache
+# Python cache & temp scripts
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Test scripts & local temporary audit files
+test_*.mjs
+mobile_audit_screenshots/
+Write Mobile Prompt*
+Colorful Blog Workspace Illustration.png

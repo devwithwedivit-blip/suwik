@@ -38,8 +38,8 @@ Right-click on `index.html` and select **"Open with Live Server"**.
 | `articles.html` | "Blogs" directory page, displaying all 8 case study cards in the minimalist card style with brand tags, reading times, views, and like counts. |
 | `article.html?slug=...` | Single case study view with full article text, key student takeaway callout, in-session **Like** button, **Share** link button (with toast), sample engagement disclaimer, and threaded comment section. |
 | `analytics.html` | Analytics Dashboard: 5 summary KPI cards, Best & Worst performing campaign spotlight with auto-generated diagnostic commentary, comparative metrics table (views, likes, shares, comments, engagement rate), and 2 Chart.js visualizations (Likes bar chart and 7-day views trend). |
-| `about.html` | About page: **Supriya's Profile** (with photo), **How I Started This Blog** (verified 100-word founder story), Academic affiliation at the Institute of Home Economics, Hauz Khas, New Delhi, Strategic Pillars (Innovation, Knowledge, Impact), and Case Study Reading Library. (Offices section completely removed). |
-| `team.html` | Team page: Founder Supriya (Institute of Home Economics, New Delhi) and student research cohort collaborators. |
+| `about.html` | About page: **Supriya's Profile** (with photo), **How I Started This Blog** (verified 100-word founder story), Academic affiliation at the Institute of Home Economics, Hauz Khas, New Delhi, Strategic Pillars (Innovation, Knowledge, Impact). (Offices, Team, and Case Study Library sections removed). |
+| `team.html` / `offices.html` | Deprecated and redirected to `about.html`. |
 
 ---
 
